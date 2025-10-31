@@ -1,0 +1,88 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family:"roboto";
+	font-size: 15px;
+}
+p{
+	color: black;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+}
+header{
+	background-color: #DBBFD8;
+	padding: 10px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-style: solid;
+	border-color: pink;
+	z-index: 2;
+}
+header  .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header  .container .logo{
+width: 100px;
+border-radius: 50px;
+} 
+header .container nav a
+{
+	color: red;
+	text-decoration: none;
+	margin: 0 15px
+	font-family: serif;
+}
+header .comtainer h1{
+	color: #FF0033;
+	font-family: impact;
+	font-size: 30px;
+	letter-spacing: 5px;
+     text-shadow: -3px -3px 1px #000, 2px 2px #000;
+}
+#inicio {
+	position: relative;
+}
+#inicio img{
+	width: 100%;
+	display:block;
+}
+#inicio .bloque-inicio {
+	position: absolute;
+	top: 20%;
+	left: 55%;
+	width: 600px;
+	text-align: justify;
+	margin-left: -20px;
+} 
+#inicio .bloque-inicio h1{
+	color: #00FFCC;
+	text-shadow: -2px -2px 2px #000;
+	font-size: 45px;
+}
+#inicio .bloque-inicio p{
+	font-size: 20px;
+}
+.boton {
+	text-align: center;
+	text-decoration: none;
+    padding: 15px 20px;
+}
+.boton.boton-azul{
+	color:white;
+	background-color: blue;
+	font-size: 30px;
+	font-weight: bold;
+	border: solid;
+	border-color: white;
+}
+.boton.boton-azul:hover{
+	color: blue;
+	background-color: white;
+}
